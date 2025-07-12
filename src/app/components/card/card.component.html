@@ -1,0 +1,11 @@
+<div class="custom-card">
+    <img [src]="pet?.picture" alt="imagen de la mascota" class="card-img-top">
+    <div class="card-body text-center">
+        <p class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            {{pet?.place}}
+        </p>
+        <h5 class="pet-name"> {{pet?.name}} </h5>
+        <p class="pet-characteristics"> {{pet?.race}} - {{pet?.type}} </p>
+    </div>
+</div>
